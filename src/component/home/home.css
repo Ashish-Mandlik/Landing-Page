@@ -1,0 +1,81 @@
+section {
+    min-height: 100vh;
+    width:100%;
+    padding: 0 9%;
+    padding-top: 0.5rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("../home/image/bg-intro-mobile.png") none ;
+    background-size: cover;
+    background-position: center; */
+    
+}
+
+.home .image img {
+    width:40vw;
+    
+}
+
+.home .content h3{
+    font-size: 3.5rem;
+    color :black;
+}
+
+.home .content h3 span {
+    color : hsl(136, 65%, 51%);
+}
+
+.home .content p{
+    font-size: 1.2rem;
+    color :black;
+    padding: 1rem 0; 
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.3rem 3rem;
+    border-radius:25px ;
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+    font-size: 1.5rem;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0.5rem .5rem rgb(0,0,0,.1);    
+    transition: all .3s linear;
+    border: none;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right,hsl(136, 75%, 61%) , hsl(192, 80%, 61%));
+    transform: scale(1.1);
+}
+
+@media (max-width:998px){
+    section {
+        /* min-height: 100vh; */
+        /* width:100%; */
+        padding: 0 3%;
+        padding-top: 0.5rem;
+    }
+
+}
+
+@media (max-width:858px){
+    .home{
+        flex-flow: column-reverse;
+        margin-bottom: 120px;
+    }
+    .home .image img {
+        width: 100%;
+    }
+    .home .content h3 {
+        font-size: 4.6rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
+}

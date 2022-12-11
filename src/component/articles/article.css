@@ -1,0 +1,64 @@
+
+.feature1{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.heading1 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: .8rem;
+    margin-bottom: 2rem;
+}
+.heading1  span{
+    border-bottom: 5px solid hsl(136, 65%, 51%) ;
+
+}
+
+.feature1 .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: .1rem solid rgba(0,0,0,.2); */
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    
+
+}
+
+.feature1 .box-container .box {
+    flex :1 1 15rem;
+    background-color: azure;
+    margin: .5rem;
+    padding:3rem 2rem;
+    text-align: center;    
+}
+
+.feature1 .box-container .box img {
+    height: 8rem;
+    width : 15rem;
+    border-radius: .5rem;
+}
+
+.feature1 .box-container .box  h3{
+    font-size: 1rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.feature1 .box-container .box  p{
+    font-size: .8rem;
+    padding-top: 1rem 0;
+    
+}
+
+.feature1 .box-container .box  h3:hover{
+    color : hsl(136, 65%, 51%);
+    
+}
+
+.feature1 .box-container .box figcaption{
+    font-size : .8rem;
+}
+
+
+
